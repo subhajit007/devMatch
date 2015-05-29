@@ -69,6 +69,7 @@ background: url("http://i.imgur.com/dfx26E6.jpg") no-repeat;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+height: 100vh;
 }
 
 //gradient from uigradient website I love this site
@@ -142,6 +143,7 @@ background-size: cover;
    width:100%;
    height:60px;   /* Height of the footer */
    font-size: 14px;
+   font-color: white;
 
 }
 .jumbotron{
@@ -159,5 +161,18 @@ background-size: cover;
   background:     -ms-linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* W3C */
+
+}
+.con{
+
+  background: -webkit-linear-gradient(90deg, #360033 10%, #0b8793 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #360033 10%, #0b8793 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #360033 10%, #0b8793 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #360033 10%, #0b8793 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #360033 10%, #0b8793 90%); /* W3C */
+
+}
+.navbar-brand{
+  font-size: 2em;
 
 }
