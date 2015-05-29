@@ -1,6 +1,9 @@
 == README
 
-devMatch
-GA_Project4 by Subhajit Banerjee
-A Membership site where entrepreneurs can meet developers
+devMatch.
+
+GA_Project4 by Subhajit Banerjee.
+
+A Membership site where entrepreneurs can meet developers.
+
 App is under development and testing partially live at http://joindevmatch.herokuapp.com/
