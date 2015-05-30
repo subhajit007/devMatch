@@ -164,13 +164,17 @@ height: 100vh;
   background:         linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* W3C */
 
 }
+// from cssmaticdotcom
 .con{
 
-  background: -webkit-linear-gradient(90deg, #360033 10%, #0b8793 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #360033 10%, #0b8793 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #360033 10%, #0b8793 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #360033 10%, #0b8793 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #360033 10%, #0b8793 90%); /* W3C */
+
+
+  background: -webkit-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* W3C */
+
 
 }
 .navbar-brand{
@@ -180,10 +184,25 @@ height: 100vh;
 .bounceInLeft{
   color:white;
 }
+.flip{
+  color:#0000FF;
+}
 .footer{
   color:white;
 }
 body{
   font-family: "Comfortaa";
   font-weight: bold;
+}
+.jumbotron{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.well{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
 }
