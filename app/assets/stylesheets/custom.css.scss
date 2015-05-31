@@ -190,15 +190,21 @@ height: 100vh;
 .footer{
   color:white;
 }
+
+// google font
 body{
   font-family: "Comfortaa";
   font-weight: bold;
 }
+
+
 .jumbotron{
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
+// form shadow
 .well{
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -206,6 +212,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 
 }
+// background color from uigradient
 .sign{
 
   background: -webkit-linear-gradient(90deg, #83a4d4 10%, #b6fbff 90%); /* Chrome 10+, Saf5.1+ */
@@ -213,5 +220,14 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   background:     -ms-linear-gradient(90deg, #83a4d4 10%, #b6fbff 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #83a4d4 10%, #b6fbff 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #83a4d4 10%, #b6fbff 90%); /* W3C */
+
+}
+.log{
+
+  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
 
 }
