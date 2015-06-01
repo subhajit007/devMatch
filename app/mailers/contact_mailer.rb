@@ -4,6 +4,13 @@ class ContactMailer < ActionMailer::Base
     @name = name
     @email = email
     @body = body
-    mail(from: email, subject: 'Welcome to devmatch')
+    mail(from: email, subject: 'email from devmatch')
+  end
+
+   def email_confirm(name, email, body)
+    @name = name
+    @email = email
+    @body = body
+    mail(to: email, from: 'noreply@joindevmatch.herokuapp.com', subject: 'Welcome to devmatch')
   end
 end

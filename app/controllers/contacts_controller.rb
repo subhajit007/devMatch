@@ -11,6 +11,7 @@ def create
     email = params[:contact][:email]
     body = params[:contact][:comments]
     ContactMailer.contact_email(name, email, body).deliver
+    ContactMailer.email_confirm(name, email, body).deliver
     flash[:success] = 'Message sent.'
     redirect_to new_contact_path
   else
