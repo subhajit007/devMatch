@@ -54,7 +54,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'spring'
   gem 'devise', '3.4.1'
   gem 'stripe', '1.16.1'
-  gem 'figaro', '1.0.0'
+
 
 
 
