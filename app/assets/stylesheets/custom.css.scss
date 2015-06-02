@@ -4,9 +4,11 @@
 @import "font-awesome";
 @import "animate";
 .alert-notice {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;
+  color: lime;
+
+  background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
 }
 
 .fa-code{
