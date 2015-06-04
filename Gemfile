@@ -54,7 +54,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'spring'
   gem 'devise', '3.4.1'
   gem 'stripe', '1.16.1'
-  gem 'paperclip', '4.2.1'
+  gem 'paperclip'
+  gem 'aws-sdk'
+  gem 'figaro'
 
 
 
