@@ -296,3 +296,24 @@ background-color: #ffffff;
   background:         linear-gradient(90deg, #C9FFBF 10%, #FFAFBD 90%); /* W3C */
 
 }
+.user-show-avatar {
+  height: 128px;
+  width: 128px;
+}
+.user-index-avatar {
+  border-radius: 50%;
+}
+.well.white-bg {
+  background-color: white;
+}
+.comcolor{
+
+
+  background: -webkit-linear-gradient(90deg, #e9d362 10%, #333333 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #e9d362 10%, #333333 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #e9d362 10%, #333333 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #e9d362 10%, #333333 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #e9d362 10%, #333333 90%); /* W3C */
+
+
+}
