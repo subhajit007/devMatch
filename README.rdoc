@@ -4,6 +4,6 @@ devMatch.
 
 GA_Project4 by Subhajit Banerjee.
 
-A Membership site where entrepreneurs can meet developers.
+A Membership site where entrepreneurs can meet developers using Ruby and Rails with Stripe API.
 
-App is under development and testing partially live at http://joindevmatch.herokuapp.com/
+http://joindevmatch.herokuapp.com
